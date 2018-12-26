@@ -20,7 +20,7 @@ class _ProductManagerState extends State<ProductManager> {
   }
   @override
   Widget build(BuildContext context) {
-    return ListView(
+    return Column(
       children: <Widget>[
         Container(
           margin: EdgeInsets.all(10),
